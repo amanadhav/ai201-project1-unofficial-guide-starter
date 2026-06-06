@@ -1,0 +1,12 @@
+For discussions and advice regarding CSE 355 (Introduction to Theoretical Computer Science) at ASU, the r/ASU subreddit is a common resource where students share study tips, course expectations, and supplemental materials.
+
+Key Themes from r/ASU Discussions:
+* Course Nature: Students frequently describe CSE 355 as a theory-heavy, proof-based course that differs significantly from the more practical, programming-focused classes in the curriculum. It is often compared to a more advanced version of Discrete Mathematics.
+* Preparation: Success in the course is often linked to a strong foundation in Discrete Mathematics and CSE 310. Many students emphasize that it is difficult to "cram" for this class and recommend consistent practice with proofs and design problems (like finite state machines and context-free grammars) throughout the semester.
+* Recommended Resources: 
+    * "Easy Theory" on YouTube: Frequently recommended as a high-quality supplemental resource that covers the core concepts of the course.
+    * Ryan Dougherty’s Lectures: Many students have credited his archived lectures on YouTube as being instrumental in helping them understand difficult topics.
+* Study Strategies:
+    * Attend recitations and office hours consistently.
+    * Form study groups or join Discord servers to share resources and work through problems together.
+    * Focus on identifying the type of proof or theorem required for problems, as partial credit is often awarded for sound logic even if the final proof is not perfect.

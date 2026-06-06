@@ -1,0 +1,13 @@
+Discussions regarding CSE 240 (Introduction to Programming Languages) at ASU on the r/ASU subreddit frequently focus on the course's workload, the different programming paradigms covered (C, C++, Scheme, Prolog), and feedback on specific professors.
+
+Key Themes in Student Discussions:
+* Course Content: The class introduces multiple programming paradigms. Students often note that because it covers several languages (C, C++, Scheme, Prolog, and sometimes Bash), it does not go extremely deep into any single one, but the pace can be fast.
+* Common Challenges: 
+    * Pointers and Memory Management: Many students cite C/C++ pointers and memory management as the most challenging aspects of the course.
+    * Workload: The difficulty and workload can vary significantly by professor. Some sections are described as assignment-heavy with proctored tests, while others are noted for being more "chill" or self-taught.
+* Professor Feedback: 
+    * Students frequently discuss individual teaching styles, such as the organization of assignments and grading policies.
+    * There is recurring advice to check current student sentiment on specific professors for the upcoming semester, as experiences—such as assignment deadlines or teaching clarity—can differ widely between instructors like Erik Trickel, Justin Selgrad, and others.
+* Study Tips:
+    * Start Early: A common piece of advice is to start assignments as early as possible rather than waiting until the deadline.
+    * Resources: Students often recommend utilizing TA office hours, Discord servers, and supplemental YouTube tutorials for the functional programming sections (Scheme/Prolog).

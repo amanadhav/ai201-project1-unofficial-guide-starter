@@ -1,0 +1,13 @@
+For discussions regarding CSE 445 (Distributed Software Development) at Arizona State University on the r/ASU subreddit, here is a summary of common sentiments and recurring themes:
+
+Course Content & Value
+* Practicality: Many students consider CSE 445 one of the most useful and relevant courses offered at ASU, particularly for those interested in web development. It covers essential topics like web services (REST/SOAP), JSON/XML, and distributed software concepts that are frequently applied in real-world professional roles.
+* Difficulty: It is generally regarded as less labor-intensive and more straightforward than "foundational" theory-heavy courses like CSE 340 or CSE 355. 
+
+Typical Experience with Professor Yinong Chen
+* Teaching Style: Discussions often focus on Professor Yinong Chen. Students note that his exams and quizzes are typically open-note, which makes organization and familiarity with the material critical. 
+* Exam Strategy: Because the exams are open-note, the challenge often lies in managing time effectively and being able to quickly locate information within the provided materials rather than rote memorization. Some students have mentioned that the volume of questions can be overwhelming, so "Ctrl+F" skills and having well-indexed notes are often cited as essential survival strategies.
+* Workload: The workload is often described as "average" or "medium," consisting of periodic assignments and regular quizzes.
+
+Student Advice
+* Preparation: If you lack experience with web services or backend development, students suggest familiarizing yourself with REST/SOAP and JSON/XML basics before the semester starts to get a head start.

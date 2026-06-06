@@ -1,0 +1,13 @@
+Discussions on r/ASU regarding CSE 340 (Principles of Programming Languages) consistently highlight it as one of the more challenging and time-consuming courses in the Computer Science curriculum.
+
+Key Takeaways from Student Discussions:
+* Workload and Projects: The primary difficulty of the course stems from its projects. Students frequently report that these assignments are very time-intensive—often requiring 30–40 hours each. It is highly advised to start projects as early as possible—ideally on the day they are assigned—rather than waiting until the deadline.
+* Language Requirements: The projects are typically written in C++. Proficiency with basic data structures, particularly vectors and maps, is considered essential.
+* Professor Reputation: 
+    * Prof. Bazzi: Often cited as a highly respected, engaging, and knowledgeable instructor, though his version of the course is known for being rigorous with a demanding workload. Students generally recommend his class for the quality of learning, provided you are prepared to put in the time.
+    * Other Professors: Experiences vary; some students look for "easier" sections to protect their GPA, while others warn that avoiding the more rigorous professors may result in missing out on valuable learning outcomes.
+* Preparation Tips:
+    * Resources: Many students suggest supplementing course materials with YouTube tutorials (e.g., Adam Doupe’s lectures).
+    * Study Habits: Do not procrastinate. Connect with classmates through Discord or study groups to share resources, but strictly adhere to academic integrity policies—never copy or use others' code as a reference.
+
+In summary, while CSE 340 is notoriously difficult, students generally agree that it is manageable if you dedicate significant time to the projects, engage with the course material throughout the semester, and seek help from TAs early.

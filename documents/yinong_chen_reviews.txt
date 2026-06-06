@@ -1,0 +1,8 @@
+Discussions about Yinong Chen on the r/ASU subreddit typically revolve around his courses, particularly CSE 240 (Introduction to Programming Languages) and CSE 445 (Distributed Software Development).
+
+Student opinions on his teaching style are mixed:
+* Teaching Style: Some students have noted that his lectures involve reading from slides and can be difficult to follow. Others have found his analogies helpful and appreciate the time he spends on complex or important concepts.
+* Coursework: Assignments in his classes are often described as relatively simple or manageable (sometimes involving adapting code from lecture materials). However, some students have found his tests to be ambiguous or confusing.
+* General Sentiment: Reviews on Reddit are varied, with some students recommending him while others suggest avoiding his classes if possible. As with many professors, experiences appear to depend on the student's learning style.
+
+Yinong Chen is a Teaching Professor in the School of Computing and Augmented Intelligence at ASU. Students also occasionally use the subreddit to search for specific textbooks he requires, such as those for CSE 445.

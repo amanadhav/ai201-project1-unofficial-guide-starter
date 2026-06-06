@@ -1,0 +1,14 @@
+Discussions on r/ASU regarding CSE 310 (Data Structures and Algorithms) consistently highlight it as one of the more challenging and foundational courses in the Computer Science curriculum at Arizona State University.
+
+Key Themes from Student Discussions:
+* Course Difficulty & Importance: Students frequently mention that CSE 310 is a critical class, particularly for preparing for technical interviews. Many advise treating the material seriously as it covers core concepts like Big O notation, recursion, and various data structures.
+* Programming Language (C++): A recurring piece of advice is to be comfortable with C++. Students suggest that familiarity with pointers, memory management, and debugging in C++ is essential. Some recommend having a solid grasp of concepts from CSE 240 as a prerequisite for the technical demands of 310.
+* Professor Recommendations:
+    * Xuerong Feng: Often cited as a "no-nonsense" professor who is fair and knowledgeable. While some students find her strict, many suggest that if you keep up with her notes and assignments, you can succeed.
+    * Other Professors: Experiences vary significantly with other instructors, with some students noting that teaching styles and grading (including the presence or absence of a curve) can depend heavily on the specific semester and professor.
+* Study Tips:
+    * Start Early: For coding assignments, starting early is consistently emphasized to avoid last-minute issues.
+    * Resources: Students often recommend external resources like Abdul Bari or Michael Sambol on YouTube to supplement course lectures.
+    * Practice: Implementing data structures (like linked lists or binary search trees) in C++ from scratch is highly recommended for preparation.
+
+If you are currently enrolled or planning to take the course, current students suggest checking the specific professor's syllabus early and brushing up on C++ pointers and data structure implementations before the semester begins.

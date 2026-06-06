@@ -1,0 +1,11 @@
+Discussions on Reddit regarding CSE 412 (Database Management) at Arizona State University (ASU) typically cover its difficulty relative to other electives, its practical usefulness, and insights into various professors.
+
+General Course Perception
+* Difficulty: CSE 412 is frequently described as one of the "easier" or more manageable 400-level CSE electives. Students often compare it favorably to more rigorous or "dry" courses like CSE 434 or CSE 445.
+* Usefulness: Many students find the material highly relevant to industry work. The course generally covers database architecture, query optimization, database design/tables, security, and SQL. 
+* Skills: You are typically expected to learn SQL during the course, so prior knowledge is often not strictly required, though it can be helpful.
+
+Coursework & Experience
+* Projects: The course often includes a group project involving the development of an application. Students generally advise not to leave the project phases until the last minute, but report that it is usually manageable.
+* Teaching Variability: Feedback on the course experience is heavily dependent on the professor. Reddit discussions highlight that while some professors are well-regarded, others may have "scatterbrained" lecture styles or rely on slides that students find confusing. 
+* Advice: If you are choosing between electives, students often recommend CSE 412 if you want a balance of useful industry skills and a reasonable workload.

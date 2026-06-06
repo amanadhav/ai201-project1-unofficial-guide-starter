@@ -1,0 +1,14 @@
+Discussions on Reddit's r/ASU subreddit regarding CSE 110 (Principles of Programming with Java) generally focus on the following themes:
+
+Course Overview & Difficulty
+* Content: It is an introductory Java programming course. Many students note that while the concepts themselves are fundamental and manageable, the course is "content-heavy" and can be time-consuming, especially for those with no prior coding experience.
+* Workload: Students frequently describe the workload as heavy. Those taking it in accelerated sessions (like Session A) or online have sometimes found it particularly intense.
+* "Weed-out" Perception: Some students view it as a foundational course that helps prepare them for more advanced topics in the CS major, noting that it often has large enrollment numbers compared to upper-division classes.
+
+Course Materials & Platform
+* ZyBooks: A major point of discussion is the heavy reliance on ZyBooks. Assignments, labs, quizzes, and tests are often conducted through this platform.
+* Student Feedback: Opinions on ZyBooks are mixed. While some students appreciate the interactive exercises and clear metrics for progress, others have expressed frustration with the course format, feeling that it lacks the depth or engagement of other free resources like Harvard's CS50.
+
+Tips from Students
+* Utilization of Resources: Students recommend utilizing TA support and not relying solely on the provided course material. If you find the reading confusing, many suggest supplementing your learning with online tutorials or practicing with simple personal projects (e.g., calculators, basic games) to grasp the syntax.
+* Don't Just Copy: There is a strong consensus against simply copying and pasting code for labs and assignments, as doing so will leave you unprepared for subsequent courses like CSE 205.

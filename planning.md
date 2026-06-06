@@ -9,7 +9,9 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+**ASU CS/Software Engineering Course & Professor Guide (Fulton Schools)**
+
+Official ASU course catalogs provide the syllabus, but they don't capture the student experience—such as how harsh a grader a professor is, which electives are most useful for software engineering interviews, or which prerequisite courses are the most notoriously difficult. This knowledge is incredibly valuable for students planning their schedules but is typically scattered across Reddit threads, Discord servers, and word-of-mouth, making it hard to find and aggregate efficiently.
 
 ---
 
@@ -20,16 +22,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit r/ASU | Summary of CSE 310 (Data Structures and Algorithms) student discussions | `documents/cse310_reddit_summary.txt` |
+| 2 | Reddit r/ASU | Summary of CSE 340 (Principles of Programming Languages) student discussions | `documents/cse340_reddit_summary.txt` |
+| 3 | Reddit r/ASU | Summary of CSE 240 (Introduction to Programming Languages) student discussions | `documents/cse240_reddit_summary.txt` |
+| 4 | Reddit r/ASU | Summary of CSE 110 (Principles of Programming with Java) student discussions | `documents/cse110_reddit_summary.txt` |
+| 5 | Reddit r/ASU | Summary of reviews for Professor Ryan Meuth | `documents/ryan_meuth_reviews.txt` |
+| 6 | Reddit r/ASU | Summary of CSE 412 (Database Management) student discussions | `documents/cse412_reddit_summary.txt` |
+| 7 | Reddit r/ASU | Summary of CSE 355 (Intro to Theoretical Computer Science) student discussions | `documents/cse355_reddit_summary.txt` |
+| 8 | Reddit r/ASU | Summary of reviews for Professor Mutsumi Nakamura | `documents/mutsumi_nakamura_reviews.txt` |
+| 9 | Reddit r/ASU | Summary of CSE 445 (Distributed Software Development) student discussions | `documents/cse445_reddit_summary.txt` |
+| 10 | Reddit r/ASU | Summary of reviews for Professor Yinong Chen | `documents/yinong_chen_reviews.txt` |
 
 ---
 
@@ -73,11 +75,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about the workload and projects for CSE 340, and what is the best way to manage it? | Projects are very time-intensive (often 30-40 hours each). Students highly recommend starting projects as early as possible, ideally on the day they are assigned. |
+| 2 | What programming language is used in CSE 310, and what specific concepts should I be comfortable with before taking it? | C++. You should be comfortable with pointers, memory management, and debugging. |
+| 3 | What is the general student consensus on Professor Ryan Meuth, and what external resource of his is highly recommended? | He is widely considered one of the best professors at ASU. His YouTube instructional videos are highly recommended, particularly for understanding CSE 230 topics. |
+| 4 | How does CSE 355 differ from practical programming courses, and what YouTube channel do students recommend for it? | It is a theory-heavy, proof-based course, compared to an advanced version of Discrete Math. Students highly recommend "Easy Theory" on YouTube. |
+| 5 | What is Professor Yinong Chen's exam format in CSE 445, and what is the key strategy for success on these exams? | His exams are typically open-note. The key strategy is having well-indexed notes and strong "Ctrl+F" skills to quickly locate information during the test. |
 
 ---
 

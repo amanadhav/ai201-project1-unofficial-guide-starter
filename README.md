@@ -9,10 +9,9 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+**ASU CS/Software Engineering Course & Professor Guide (Fulton Schools)**
+
+Official ASU course catalogs provide the syllabus, but they don't capture the student experience—such as how harsh a grader a professor is, which electives are most useful for software engineering interviews, or which prerequisite courses are the most notoriously difficult. This knowledge is incredibly valuable for students planning their schedules but is typically scattered across Reddit threads, Discord servers, and word-of-mouth, making it hard to find and aggregate efficiently.
 
 ---
 
@@ -24,16 +23,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit r/ASU CSE 310 Thread Summary | Text File | `documents/cse310_reddit_summary.txt` |
+| 2 | Reddit r/ASU CSE 340 Thread Summary | Text File | `documents/cse340_reddit_summary.txt` |
+| 3 | Reddit r/ASU CSE 240 Thread Summary | Text File | `documents/cse240_reddit_summary.txt` |
+| 4 | Reddit r/ASU CSE 110 Thread Summary | Text File | `documents/cse110_reddit_summary.txt` |
+| 5 | Reddit r/ASU Prof. Ryan Meuth Reviews | Text File | `documents/ryan_meuth_reviews.txt` |
+| 6 | Reddit r/ASU CSE 412 Thread Summary | Text File | `documents/cse412_reddit_summary.txt` |
+| 7 | Reddit r/ASU CSE 355 Thread Summary | Text File | `documents/cse355_reddit_summary.txt` |
+| 8 | Reddit r/ASU Prof. Mutsumi Nakamura Reviews | Text File | `documents/mutsumi_nakamura_reviews.txt` |
+| 9 | Reddit r/ASU CSE 445 Thread Summary | Text File | `documents/cse445_reddit_summary.txt` |
+| 10 | Reddit r/ASU Prof. Yinong Chen Reviews | Text File | `documents/yinong_chen_reviews.txt` |
 
 ---
 
