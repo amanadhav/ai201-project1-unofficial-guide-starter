@@ -89,4 +89,4 @@ with gr.Blocks(title="The Unofficial Guide - ASU CS Courses & Professors") as de
     inp.submit(handle_query, inputs=inp, outputs=[answer, sources])
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch(server_name="127.0.0.1", server_port=7860)
