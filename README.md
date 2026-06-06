@@ -53,6 +53,18 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
 
 **Final chunk count:** 39 chunks
 
+**Sample chunks:**
+1. **Source: yinong_chen_reviews.txt**
+   "him while others suggest avoiding his classes if possible. As with many professors, experiences appear to depend on the student's learning style. Yinong Chen is a Teaching Professor in the School of Computing and Augmented Intelligence at ASU. Students also occasionally use the subreddit to search for specific textbooks he requires, such as those for CSE 445."
+2. **Source: cse310_reddit_summary.txt**
+   "for the technical demands of 310. * Professor Recommendations: * Xuerong Feng: Often cited as a "no-nonsense" professor who is fair and knowledgeable. While some students find her strict, many suggest that if you keep up with her notes and assignments, you can succeed."
+3. **Source: cse445_reddit_summary.txt**
+   "Students note that his exams and quizzes are typically open-note, which makes organization and familiarity with the material critical. * Exam Strategy: Because the exams are open-note, the challenge often lies in managing time effectively and being able to quickly locate information within the provided materials rather than rote memorization."
+4. **Source: cse240_reddit_summary.txt**
+   "or teaching clarity—can differ widely between instructors like Erik Trickel, Justin Selgrad, and others. * Study Tips: * Start Early: A common piece of advice is to start assignments as early as possible rather than waiting until the deadline. * Resources: Students often recommend utilizing TA office hours, Discord servers, and supplemental YouTube tutorials for the functional programming sections (Scheme/Prolog)."
+5. **Source: mutsumi_nakamura_reviews.txt**
+   "Discussions regarding Professor Mutsumi Nakamura on the r/ASU subreddit generally highlight her as a knowledgeable and well-regarded instructor, though students have noted specific aspects of her teaching style. Summary of Student Feedback * Teaching Quality: Many students have praised her as a "great teacher" who provides well-structured courses."
+
 ---
 
 ## Embedding Model
@@ -85,6 +97,52 @@ In addition, we structure the prompt to pass `Context:\n{context_str}` explicitl
 
 **How source attribution is surfaced in the response:**
 Source attribution is enforced programmatically. In `app.py`, as we iterate through retrieved documents, we create a set of `unique_sources`. These are then explicitly listed in the Gradio UI in a dedicated "Retrieved from" text box. We also instruct the LLM to briefly cite the source inline (e.g., `(source: filename.txt)`).
+
+---
+
+## Retrieval Results
+
+**Query 1:** What do students say about the workload and projects for CSE 340?
+**Top Returned Chunks:**
+- Chunk 1 (`cse340_reddit_summary.txt`): "The primary difficulty of the course stems from its projects. Students frequently report that these assignments are very time-intensive—often requiring 30–40 hours each."
+- Chunk 2 (`cse340_reddit_summary.txt`): "It is highly advised to start projects as early as possible—ideally..."
+- Chunk 3 (`cse340_reddit_summary.txt`): "In summary, while CSE 340 is notoriously difficult, students generally agree that it is manageable if you dedicate significant time to the projects..."
+**Relevance Explanation:** These chunks are perfectly relevant because they directly address the "workload and projects" constraints mentioned in the query, providing the exact hour estimates and management strategies (starting early).
+
+**Query 2:** What programming language is used in CSE 310?
+**Top Returned Chunks:**
+- Chunk 1 (`cse310_reddit_summary.txt`): "A recurring piece of advice is to be comfortable with C++. Students suggest that familiarity with pointers, memory management..."
+- Chunk 2 (`cse310_reddit_summary.txt`): "Many advise treating the material seriously as it covers core concepts like Big O notation, recursion, and various data structures."
+**Relevance Explanation:** These chunks directly answer the question by explicitly naming the programming language (C++) and the specific concepts that are used in the course.
+
+**Query 3:** What is the general student consensus on Professor Ryan Meuth?
+**Top Returned Chunks:**
+- Chunk 1 (`ryan_meuth_reviews.txt`): "He is widely considered one of the 'best' professors at ASU. Students often describe him as enthusiastic, organized..."
+- Chunk 2 (`yinong_chen_reviews.txt`): "Some students have noted that his lectures involve reading from slides..."
+- Chunk 3 (`mutsumi_nakamura_reviews.txt`): "Many students have praised her as a 'great teacher'..."
+
+---
+
+## Query Interface
+
+**Input Field:** A large text box where the user can type their natural language question (e.g. "What do students say about Professor Ryan Meuth?"). There is an "Ask" button to submit the query.
+**Output Fields:** 
+1. **Answer Textbox:** Displays the LLM's generated response strictly derived from the retrieved context.
+2. **Retrieved From Textbox:** Lists the unique file names (sources) that were used to generate the answer.
+
+**Sample Interaction Transcript:**
+*User Input:* "What is the workload of CSE 340?"
+*System Answer Output:* "The workload of CSE 340 is considered challenging and time-consuming, with projects often requiring 30-40 hours each (source: cse340_reddit_summary.txt). It is advised to start projects as early as possible to manage the workload effectively."
+*System Retrieved From Output:* 
+• cse340_reddit_summary.txt
+
+**Out-of-Scope Query Example:**
+*User Input:* "What do students say about Professor Smith?"
+*System Answer Output:* "I don't have enough information on that."
+*System Retrieved From Output:* 
+• ryan_meuth_reviews.txt
+• mutsumi_nakamura_reviews.txt
+• yinong_chen_reviews.txt
 
 ---
 
