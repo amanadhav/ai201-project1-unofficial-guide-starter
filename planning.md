@@ -42,11 +42,11 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 500 characters
 
-**Overlap:**
+**Overlap:** 100 characters
 
-**Reasoning:**
+**Reasoning:** The documents are relatively short summaries of Reddit discussions structured with bullet points. A chunk size of 500 characters captures roughly 2-3 bullet points or a full short paragraph, providing enough self-contained context to answer a specific query. An overlap of 100 characters ensures that if a key point or context (like the professor's name) spans the boundary between two adjacent chunks, neither chunk loses the crucial connection.
 
 ---
 
@@ -58,11 +58,11 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** `all-MiniLM-L6-v2` via `sentence-transformers`
 
-**Top-k:**
+**Top-k:** 3
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** If cost and compute constraints were removed, I would consider using a larger, more sophisticated model like OpenAI's `text-embedding-3-large` or `BGE-m3`. These models have larger context windows and better capture nuanced semantics, which is helpful for decoding student slang or highly domain-specific colloquialisms. However, for short, English-based review text, `all-MiniLM-L6-v2` provides an excellent balance of acceptable accuracy with very low latency, and it runs locally without API costs.
 
 ---
 
@@ -89,19 +89,21 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. **Contradictory opinions:** Reddit reviews are highly subjective. Different chunks might contain conflicting advice (e.g., one student says a class is an "easy A," while another calls it a "GPA killer"). The generation stage might struggle to synthesize this if the prompt doesn't explicitly instruct the LLM to present both sides.
 
-2.
+2. **Loss of context in chunks:** Even with overlap, a chunk might capture a bullet point saying "The projects are brutal" but miss the preceding header specifying "In CSE 340." If retrieved independently, the context is ambiguous, potentially leading to inaccurate generation.
 
 ---
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
+```mermaid
+graph TD
+    A[Document Ingestion<br>os / glob libraries] --> B[Chunking<br>Character Splitting]
+    B --> C[Embedding & Vector Store<br>all-MiniLM-L6-v2 + ChromaDB]
+    C --> D[Retrieval<br>ChromaDB Similarity Search]
+    D --> E[Generation<br>LLM API]
+```
 
 ---
 
@@ -117,8 +119,8 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Ingestion and chunking:** I will prompt an AI tool (like Claude) with my "Chunking Strategy" section. I will ask it to write a Python script using standard libraries to iterate over the text files in the `documents/` directory, read their contents, and split them into chunks of 500 characters with 100 characters overlap. I expect it to produce a script that outputs a clean list of dictionaries containing the text chunk and source metadata.
 
-**Milestone 4 — Embedding and retrieval:**
+**Milestone 4 — Embedding and retrieval:** I will provide the AI with my "Architecture" diagram and "Retrieval Approach" section. I will ask it to write the code to initialize a local ChromaDB instance, embed the chunks using `sentence-transformers` (`all-MiniLM-L6-v2`), and write a function `retrieve(query)` that returns the top 3 chunks. I will verify this by printing the retrieved chunks for a test query to ensure they are relevant.
 
-**Milestone 5 — Generation and interface:**
+**Milestone 5 — Generation and interface:** I will give the AI my "Evaluation Plan" and ask it to write a generation function that takes the retrieved context, passes it to an LLM API (e.g., Groq or OpenAI), and strictly grounds the answer in the context provided. I will verify it by running the 5 evaluation questions from planning.md and comparing the output to the expected answers.
