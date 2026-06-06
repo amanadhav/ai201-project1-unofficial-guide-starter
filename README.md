@@ -45,13 +45,13 @@ Official ASU course catalogs provide the syllabus, but they don't capture the st
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** 500 characters (respecting word boundaries)
 
-**Overlap:**
+**Overlap:** 100 characters
 
-**Why these choices fit your documents:**
+**Why these choices fit your documents:** The documents are mostly short, bulleted summaries. A 500-character chunk easily captures 2-3 bullet points or a full paragraph, ensuring the context (like a professor's name) isn't lost. The 100-character overlap prevents cutting a single thought in half across chunks. We also strip whitespace and avoid cutting mid-word during chunking.
 
-**Final chunk count:**
+**Final chunk count:** 39 chunks
 
 ---
 
